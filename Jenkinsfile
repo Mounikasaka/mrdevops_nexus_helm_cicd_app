@@ -4,7 +4,7 @@ pipeline{
       stage('sonar quality check'){
         agent{
           docker{
-            iamge 'maven
+            image 'maven'
           }
         }
         steps{
